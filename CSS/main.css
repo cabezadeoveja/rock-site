@@ -1,0 +1,85 @@
+body {
+    margin: 0 auto;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+header {
+    background-color: #373c43;
+    color: white;
+    padding: 2em;
+    position: fixed;
+    width: 100%;
+}
+
+.brand{
+    margin-left: 4%;
+}
+
+.imgStart img{
+	object-fit: cover;
+    width: 100%;
+    height: 500px;
+    filter: brightness(45%);
+    position: absolute;
+    z-index: -3;
+}
+
+.imgStart h1{ 
+	color: white;
+    margin-top: 150px;
+    font-size: 80px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.imgStart h2 {
+	color: white;
+    margin-top: 50px;
+    font-size: 80px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.FirsItem{
+    margin-top: 150px;
+}
+
+.FirstItem, .infoFirstItem {
+    padding: 0px 50px 10px;
+}
+
+.SecondItem, .infoSecondItem{
+    padding: 0px 30px 10px;
+}
+
+.ThreeItem, .infoThreeItem{
+    padding: 0px 30px 30px;
+}
+
+.picture1 img{
+	border-radius: 50%;
+    width: 85%;
+    padding: 0;
+    margin-left: 7%;
+}
+
+.picture2 img, .picture3 img{
+	border-radius: 50%;
+    width: 90%;
+    padding: 0;
+    margin-left: 7%;
+}
+
+.infoFirstItem h3, .infoSecondItem h3, .infoThreeItem h3 {
+    font-weight: 300;
+    font-size: 50px;
+    padding: 130px 0 0 0;
+}
+
+footer {
+    background-color: #373c43;
+    color: white;
+    padding: 45px 0;
+    text-align: center;
+}

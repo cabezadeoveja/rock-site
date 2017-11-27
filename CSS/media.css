@@ -1,0 +1,49 @@
+@media (min-width: 535px) and (max-width: 824px){
+	[class*="col-"]{
+		width: 100%;
+	}
+}	
+
+@media (max-width: 534px){
+		[class*="col-"]{
+		width: 100%;
+	}
+
+	header .brand{
+    	margin-top: 10px;
+        font-size: 1.6em;
+    }
+
+    .nav{
+    	display: none;
+    }
+
+    .imgStart h1{ 
+    	font-size: 5em;
+    }
+
+    .imgStart h2{ 
+    	font-size: 2.8em;
+    	margin-top: 10px;
+    }
+
+    .FirsItem{
+    	margin-top: 2px;
+	}
+
+	.FirsItem, .SecondItem, .ThreeItem{
+		width: 100%;
+	}
+
+	.infoFirstItem h3, .infoSecondItem h3, .infoThreeItem h3 {
+    	font-weight: 300;
+    	font-size: 4em;
+}
+
+	.picture1 img, .picture1 img, .picture3 img {
+		padding: 30px;
+		width: 100%;
+        margin: 1em 0 1em;
+        text-align: center;
+    }
+}
